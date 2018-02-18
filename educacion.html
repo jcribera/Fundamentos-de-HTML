@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Resumen Curricular</title>
+   </head>
+   <body>
+      <header>
+         <svg width="200px" heigth="200px" viewbox="0 0 200 200">
+            <image width="200px" height="200px" xlink:href="img/jc.SVG"></image>
+         </svg>
+      </header>
+      <section>
+         <h1>Resumen Curricular</h1>
+         <h2>Nombre:</h2>
+         <h3>Juan Carlos </h3>
+         <h2>Apellidos:</h2>
+         <h3>Ribera Vaca</h3>
+         <h2>Fecha de nacimiento:</h2>
+         <h3>25 de Diciembre, 1990</h3>
+         <h2>Lugar de nacimiento:</h2>
+         <h3>Santa Cruz de la Sierra, Bolivia</h3>
+      </section>
+      <nav>
+         <ol>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="#">educación</a></li>
+            <li><a href="experiencia.html">experiencia</a></li>
+         </ol>
+      </nav>
+      <h2>Educación</h2>
+      <table border="1px solid">
+         <thead>
+            <tr>
+               <th>Año</th>
+               <th>Institución</th>
+               <th>Lugar</th>
+               <th>¿Culminó?</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>2012</td>
+               <td>Kleer</td>
+               <td>Cochabamba, Bolivia</td>
+               <td>Si</td>
+            </tr>
+            <tr>
+               <td>2013</td>
+               <td>UTEPSA</td>
+               <td>Santa Cruz, Bolivia</td>
+               <td>Si</td>
+            </tr>
+            <tr>
+               <td>2016</td>
+               <td>UAGRM</td>
+               <td>Santa Cruz, Bolivia</td>
+               <td>Si</td>
+            </tr>
+         </tbody>
+      </table>
+      <form>
+         <legend>
+            <h2>Agregar Estudios</h2>
+         </legend>
+         <label for="anio"><strong>Año:</strong></label>
+         <select name="anio">
+            <option> 2018</option>
+            <option> 2017</option>
+            <option> 2016</option>
+            <option> 2015</option>
+            <option> 2014</option>
+            <option> 2013</option>
+            <option> 2012</option>
+         </select>
+         </br>
+         <label for="institucion"><strong>Institución:</strong></label>
+         <input type="text" name="institucion" required></br>
+         <label for="lugar"><strong>Lugar:</strong></label>
+         <textarea name="lugar" rows="4" cols="80"></textarea></br>
+         <label for="si"><strong>¿Culminó?:</strong></label>
+         <input type="radio" name="si" value="Si" checked>Si
+         <input type="radio" name="no" value="No" title="No">No</br>
+         <input type="button" name="" value="Enviar" >
+      </form>
+      <footer>
+         <h2>Contacto</h2>
+         <ul>
+            <li><strong>Correo electrónico: </strong><a href="mailto:mail@dominio.com?subject=Contacto">mail@dominio.com</a></li>
+            <li><strong>Teléfono: </strong>(+591) 76312365</li>
+            <li><strong>Dirección: </strong>Avenida inventada, calle 2 # 100</li>
+            <li><strong>Facebook: </strong><a href="https://www.facebook.com/ing.ribera">ing.jcribera</a></li>
+         </ul>
+      </footer>
+   </body>
+</html>
